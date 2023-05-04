@@ -2,12 +2,42 @@
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 2px;
+    margin: 0px 30px;
+    outline-color: black;
+    border-radius: 5px;
+    /* border-color: black;
+    border-width: 7px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    align-content: space-between;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+}
+
 .box {
     max-width: 200px;
     margin: 50px auto;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 10px;
+}
+
+.delete {
+    background-color: #eb4747;
+    padding: 8px;
 }
 
 p {
@@ -19,6 +49,8 @@ button {
     padding: 10px;
     margin: 10px;
     font-size: 20px;
+    border-color: #18978f;
+    border-width: 3px;
     color: #ffffff;
 }
 
