@@ -14,7 +14,7 @@ ul {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-li {
+.completed {
     list-style-type: none;
     text-align: left;
     display: flex;
@@ -22,9 +22,23 @@ li {
     align-items: center;
     padding: 10px;
     align-content: space-between;
-    margin: 10px auto;
+    margin: 20px auto;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: greenyellow 0px 1px 4px;
+    padding: 10px;
+}
+
+.incomplete {
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    align-content: space-between;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: red 0px 1px 4px;
     padding: 10px;
 }
 
@@ -52,6 +66,17 @@ button {
     border-color: #18978f;
     border-width: 3px;
     color: #ffffff;
+}
+
+.trigger {
+    padding: 10px;
+    text-decoration-color: white;
+    margin: 5px auto;
+    font-weight: 600px;
+    font-size: 16px;
+    border-color: #18978f;
+    border-width: 3px;
+    background-color: blue;
 }
 
 button.add {
